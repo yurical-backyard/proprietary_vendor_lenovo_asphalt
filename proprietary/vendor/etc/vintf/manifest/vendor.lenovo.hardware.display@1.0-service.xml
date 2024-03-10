@@ -1,0 +1,14 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.lenovo.hardware.display</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IDisplay</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
+
+
+

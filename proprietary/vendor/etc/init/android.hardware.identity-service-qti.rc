@@ -1,0 +1,5 @@
+service vendor.identity /vendor/bin/hw/android.hardware.identity-service-qti
+    disabled
+    class hal
+    user system
+    group system
